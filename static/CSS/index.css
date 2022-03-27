@@ -1,0 +1,21 @@
+.BG{
+    background-image: url(/Images/login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position-y: 20%; */
+}
+
+.form{
+    max-width: 15%;
+    margin: 17% auto;
+}
+
+.form input{
+    margin: 10px 0;
+    width: 100%;
+    font-size: 14px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    padding: 3px;
+}

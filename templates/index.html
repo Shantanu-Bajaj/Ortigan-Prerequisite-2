@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+    .BG{
+        background-image: url(../static/Images/login.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .head{
+        text-align: center;
+        color:yellow;
+    }
+    .form{
+        max-width: 15%;
+        margin: 12% auto;
+    }
+    .form input{
+        margin: 10px 0;
+        width: 100%;
+        font-size: 14px;
+        border: 2px solid grey;
+        border-radius: 6px;
+        padding: 3px;
+    }
+    </style>
+</head>
+<body class="BG">
+    <div class="head">
+        <h1>Register yourself</h1>
+    </div>    
+    <form action="/" method="post">
+        <div class="form">
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <input type="number" name="phone" placeholder="Phone">
+            <input type="submit" value="Submit"> 
+            <input type="reset" value="Clear">
+        </div>
+    </form> 
+</body>
+</html>
